@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">VenueWallet</string>
+    <string name="venue_wallet_header_title">Wallet</string>
+    <string name="venue_wallet_edit">Edit</string>
+    <string name="venue_wallet_mywallet">My Wallet</string>
+    <string name="venue_wallet_managewallet">Manage Wallet</string>
+    <string name="venue_wallet_nocards">You have no cards in your wallet. Let\'s get started!</string>
+    <string name="venue_wallet_debitcard">DEBIT AND CREDIT</string>
+    <string name="venue_wallet_card_mask_default">XXXX</string>
+    <string name="venue_wallet_card_pay">PAY</string>
+    <string name="venue_wallet_card_subtotal">Subtotal</string>
+    <string name="venue_wallet_card_tax">Tax</string>
+    <string name="venue_wallet_card_ordertotal">Order Total</string>
+    <string name="paybuttontext" translatable="false">fonts/walletfonts/MetroBlackLTTwo.ttf</string>
+    <string name="ordertext" translatable="false">fonts/walletfonts/MetroBlackLTTwo.ttf</string>
+    <string name="ordervaluetext" translatable="false">fonts/walletfonts/MetroMediumLTTwo.ttf</string>
+
+    <!--wallettc-->
+    <string name="venue_wallet_accept">ACCEPT</string>
+    <string name="venue_wallet_decline">DECLINE</string>
+
+    <!-- wallet add/edit-->
+    <string name="venue_wallet_add">ADD</string>
+    <string name="venue_wallet_save">SAVE</string>
+    <string name="venue_wallet_remove">REMOVE</string>
+    <string name="venue_wallet_add_cardnumber">Card Number</string>
+    <string name="venue_wallet_add_firstname">First Name</string>
+    <string name="venue_wallet_add_lastname">Last Name</string>
+    <string name="venue_wallet_add_expirydate">Expiry Date</string>
+    <string name="venue_wallet_add_cvvcode">CVV Code</string>
+    <string name="venue_wallet_add_address">Address</string>
+    <string name="venue_wallet_add_city">CITY</string>
+    <string name="venue_wallet_add_state">STATE</string>
+    <string name="venue_wallet_add_zipcode">Zip Code</string>
+
+    <!--wallet date picker-->
+    <string name="venue_wallet_alert_dialog_title">Please Select</string>
+    <string name="venue_wallet_positive_button_text">Select</string>
+    <string name="venue_wallet_negative_button_text">Cancel</string>
+
+    <string name="venue_wallet_add_alert_cardnumber">Card number cannot be empty.</string>
+    <string name="venue_wallet_add_alert_firstname">First Name cannot be empty.</string>
+    <string name="venue_wallet_add_alert_lastname">Last Name cannot be empty.</string>
+    <string name="venue_wallet_add_alert_expirydate">Expiration date cannot be empty.</string>
+    <string name="venue_wallet_add_alert_cvvcode">CVV code cannot be empty.</string>
+    <string name="venue_wallet_add_alert_address">Street Address cannot be empty.</string>
+    <string name="venue_wallet_add_alert_city">City cannot be empty.</string>
+    <string name="venue_wallet_add_alert_state">State cannot be empty.</string>
+    <string name="venue_wallet_add_alert_zipcode">ZipCode cannot be empty.</string>
+
+    <string name="venue_wallet_add_card_successfull_msg">Card is adding successfully.</string>
+    <string name="venue_wallet_add_card_unsuccessfull_msg">Unable to add the card please try again.</string>
+    <string name="venue_wallet_edit_card_successfull_msg">Updated card changes.</string>
+    <string name="venue_wallet_edit_card_unsuccessfull_msg">Unable to update card details please try again.</string>
+    <string name="venue_wallet_delete_card_successfull_msg">Card is deleted successfully.</string>
+    <string name="venue_wallet_delete_card_unsuccessfull_msg">Unable to deleted card please try again.</string>
+
+    <!--ok ,cancel text-->
+    <string name="venue_wallet_ok_txt">OK</string>
+    <string name="venue_wallet_cancel_txt">Cancel</string>
+
+    <!--logevent-->
+    <string name="venue_wallet_button_eventtype">BUTTON_CLICK</string>
+    <string name="venue_wallet_log_cat_wallet">Wallet</string>
+
+
+</resources>

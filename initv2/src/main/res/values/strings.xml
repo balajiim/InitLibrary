@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InitV2</string>
+    <string name="emkit_init_url">http://35.164.194.205/eMcard_V21/initeMkit</string>
+    <string name="emkit_network_states_url">http://35.164.194.205/eMcard_V21/settings/setNotificationStatus?eMp2UserId=</string>
+    <string name="emkit_network_states_part_url">notificationStatus=1</string>
+
+    <string name="emkit_server_protocol">https://</string>
+    <string name="emkit_server_domainname">emkit.emcards.com/</string>
+    <string name="emkit_server_servletpkg">eMcard_V21/initeMkit</string>
+
+</resources>

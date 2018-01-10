@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EmkitProximity</string>
+    <string name="emkit_location_url">/eMcard_V21/settings/setLocationStatus?eMp2UserId=%1$s&amp;locationStatus=%2$s</string>
+</resources>

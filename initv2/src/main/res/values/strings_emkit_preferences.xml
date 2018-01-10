@@ -1,0 +1,23 @@
+<resources>
+    <!-- emkit init params -->
+    <string name="emkitAPIKey">eMCardDemo1016450</string>
+    <string name="emkit_beacon_services_flag">ON</string>
+    <string name="emkit_gimbal_flag">ON</string>
+    <string name="emkit_sonic_flag">OFF</string>
+    <string name="emkit_radius_flag">ON</string>
+    <string name="emkit_custom_optin_flag">ON</string>
+    <string name="emkit_gimbalAPIKey">a77ca49a-e5f1-4be7-8364-f31d7f22a365</string>
+    <string name="emkit_sonicAPIKey"></string>
+    <string name="emkit_external_refid">12345</string>
+
+    <!-- GA_PROPERTY_ID -->
+    <!-- dev -->
+    <!--<string name="emkit_ga_property_id">UA-45995437-1</string>-->
+    <!-- prod -->
+    <string name="emkit_ga_property_id">UA-45995437-3</string>
+    <string name="ga_dispatch_period">10</string>
+    <!-- time interval of dispatch of anlytic data -->
+
+    <string name="date_format_yyyyMMdd">yyyy-MM-dd HH:mm:ss</string>
+
+</resources>

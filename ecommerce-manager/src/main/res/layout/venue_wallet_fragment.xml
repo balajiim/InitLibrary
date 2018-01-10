@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/venue_wallet_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/paybutton"
+        android:orientation="vertical">
+
+        <com.venue.venuewallet.utils.FontTextView
+            android:id="@+id/nocards_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="nocards"
+            android:textColor="@color/venue_wallet_black"
+            android:textSize="18sp"
+            android:visibility="gone"
+            app:fonttypeface="@string/normaltext" />
+
+        <LinearLayout
+            android:id="@+id/dots_layout"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"></LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dots_layout">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/walletpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_alignParentTop="true"
+                    android:visibility="visible" />
+
+                <RelativeLayout
+                    android:id="@+id/order_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/walletpager">
+
+                    <com.venue.venuewallet.utils.FontTextView
+                        android:id="@+id/ordertotal_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/venue_wallet_card_ordertotal"
+                        android:textAllCaps="true"
+                        android:textColor="@color/venue_wallet_black"
+                        android:textSize="18sp"
+                        android:visibility="visible"
+                        app:fonttypeface="@string/ordertext" />
+
+                    <RelativeLayout
+                        android:id="@+id/subtotal_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ordertotal_textview"
+                        android:layout_marginTop="20dp">
+
+                        <com.venue.venuewallet.utils.FontTextView
+                            android:id="@+id/Subtotal_textview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:text="@string/venue_wallet_card_subtotal"
+                            android:textColor="@color/venue_wallet_black"
+                            android:textSize="18sp"
+                            android:visibility="visible"
+                            app:fonttypeface="@string/ordervaluetext" />
+
+                        <com.venue.venuewallet.utils.FontTextView
+                            android:id="@+id/Subtotalprice_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="30dp"
+                            android:text="20.97"
+                            android:textColor="@color/venue_wallet_black"
+                            android:textSize="18sp"
+                            android:visibility="visible"
+                            app:fonttypeface="@string/ordervaluetext" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/tax_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/subtotal_layout"
+                        android:layout_marginTop="10dp">
+
+                        <com.venue.venuewallet.utils.FontTextView
+                            android:id="@+id/tax_textview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:text="@string/venue_wallet_card_tax"
+                            android:textColor="@color/venue_wallet_black"
+                            android:textSize="18sp"
+                            android:visibility="visible"
+                            app:fonttypeface="@string/ordervaluetext" />
+
+                        <com.venue.venuewallet.utils.FontTextView
+                            android:id="@+id/taxprice_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="30dp"
+                            android:text="2.09"
+                            android:textColor="@color/venue_wallet_black"
+                            android:textSize="18sp"
+                            android:visibility="visible"
+                            app:fonttypeface="@string/ordervaluetext" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ordertotal_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tax_layout"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="10dp">
+
+                        <com.venue.venuewallet.utils.FontTextView
+                            android:id="@+id/order_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:text="@string/venue_wallet_card_ordertotal"
+                            android:textColor="@color/venue_wallet_black"
+                            android:textSize="18sp"
+                            android:visibility="visible"
+                            app:fonttypeface="@string/ordervaluetext" />
+
+                        <com.venue.venuewallet.utils.FontTextView
+                            android:id="@+id/orderprice_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="30dp"
+                            android:text="23.06"
+                            android:textColor="@color/venue_wallet_black"
+                            android:textSize="18sp"
+                            android:visibility="visible"
+                            app:fonttypeface="@string/ordervaluetext" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+    <com.venue.venuewallet.utils.FontButton
+        android:id="@+id/paybutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/venue_wallet_paybutton_color"
+        android:text="@string/venue_wallet_card_pay"
+        android:textAllCaps="true"
+        android:textColor="@color/venue_wallet_white"
+        android:textSize="16sp"
+        app:fonttypeface="@string/paybuttontext" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</RelativeLayout>

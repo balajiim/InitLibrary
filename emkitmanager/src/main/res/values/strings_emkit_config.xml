@@ -1,0 +1,8 @@
+<resources>
+    <!-- emkit config params -->
+    <bool name="emkit_proximity_config">true</bool>
+    <bool name="emkit_maps_config">false</bool>
+    <bool name="emkit_cards_config">false</bool>
+    <bool name="emkit_wallet_config">true</bool>
+    <bool name="emkit_loyalty_config">false</bool>
+</resources>

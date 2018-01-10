@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Venuetize SDK</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Authorize Token</item>
+        <item>Wallet</item>
+        <item>Pay</item>
+    </string-array>
+</resources>

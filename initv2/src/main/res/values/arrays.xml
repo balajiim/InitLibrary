@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emkit_deeplinks">
+        <item>/managewallet</item><!-- this will open the managewallet -->
+        <item>/profile</item><!-- this will open the profile page -->
+        <item>/recentactivity</item><!-- this will open the recentactivity -->
+        <item>/redeemrewards</item><!-- this will open the rewards list -->
+        <item>/benefits</item><!-- this will open the loyalty card -->
+        <item>/specialoffers</item><!-- this will open the specialoffers -->
+        <item>/howtoearn</item><!-- this will open the how to earn page -->
+        <item>/fancard</item><!-- this will open the loyalty card page -->
+        <item>/mobilewallet</item><!-- this will open the wallet screen -->
+        <item>/memberevents</item>
+        <item>/shopbylocation/</item>
+        <item>/myorders</item>
+        <item>/newwallet</item>
+    </string-array>
+</resources>

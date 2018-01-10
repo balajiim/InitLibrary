@@ -1,0 +1,1 @@
+include ':app', ':initv2', ':emkitproximity', ':emkitmanager', ':proximitykit-android-0.13.1', ':emvenue', ':cardsmanager', ':venueidentity', ':ecommerce-manager', ':mapsmanager', ':loyaltymanager', ':mylibrary', ':initlibrary'

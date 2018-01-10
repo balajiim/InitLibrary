@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "317097351698",
+    "firebase_url": "https://identitylibrary.firebaseio.com",
+    "project_id": "identitylibrary",
+    "storage_bucket": "identitylibrary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317097351698:android:1954ba327473a98b",
+        "android_client_info": {
+          "package_name": "com.venue.venuetizeecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317097351698-tlu0it6ujiucilrngv4qj7v0d7ursu2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.venue.venuetizeecommerce",
+            "certificate_hash": "cd91116c05a8813b82adceb8ea2c135e7cd4b9e0"
+          }
+        },
+        {
+          "client_id": "317097351698-12jf2fmglmv6e6dikk85e9r03hd3tcei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALKhaoCeBy0l7uF10OSpCtSg3Zhgh5sw4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317097351698-12jf2fmglmv6e6dikk85e9r03hd3tcei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

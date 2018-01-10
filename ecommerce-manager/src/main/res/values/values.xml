@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TextView">
+        <attr name="fonttypeface" format="string" />
+    </declare-styleable>
+
+
+    <!--fonts-->
+    <string name="headertext" translatable="false">fonts/walletfonts/MetroMediumLTTwo.ttf</string>
+    <string name="titletext" translatable="false">fonts/walletfonts/InterstateRegular.ttf</string>
+    <string name="normaltext" translatable="false">fonts/walletfonts/InterstateRegular.ttf</string>
+    <string name="edittext" translatable="false">fonts/walletfonts/InterstateRegular.ttf</string>
+    <string name="buttontext" translatable="false">fonts/walletfonts/InterstateRegular.ttf</string>
+    <string name="addcardbuttontext" translatable="false">fonts/walletfonts/MetroBlackLTTwo.ttf</string>
+    <string name="addcardedittext" translatable="false">fonts/walletfonts/InterstateRegular.ttf</string>
+    <string name="addcardtext" translatable="false">fonts/walletfonts/InterstateRegular.ttf</string>
+    <string name="listtitletext" translatable="false">fonts/walletfonts/InterstateRegular.ttf</string>
+    <string name="listtext" translatable="false">fonts/walletfonts/InterstateRegular.ttf</string>
+    <string name="termsbuttontext" translatable="false">fonts/walletfonts/MetroBlackLTTwo.ttf</string>
+
+    <string name="venue_wallet_tc_url">https://s3-us-west-2.amazonaws.com/venueframework/TrailBlazers/Webpages/TOS_Wallet.html</string>
+
+</resources>

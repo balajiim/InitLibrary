@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="venue_wallet_black">#000000</color>
+    <color name="venue_wallet_white">#ffffff</color>
+    <color name="venue_wallet_divider">#dcdcdc</color>
+    <color name="venu_wallet_tab_divider">#A6B6C6</color>
+    <color name="venue_wallet_header">#F8F8F8</color>
+    <color name="venue_wallet_header_text_color">#003A63</color>
+    <color name="venue_wallet_tab_unselected_color">#F3F3F3</color>
+    <color name="venue_wallet_tab_selected_color">#ffffff</color>
+    <color name="venue_wallet_tab_text_selected_color">#5A6771</color>
+    <color name="venue_wallet_tab_text_unselected_color">#5A6771</color>
+    <color name="venue_wallet_text_color">#5A6771</color>
+    <color name="venue_wallet_text_list_color">#5A6771</color>
+    <color name="venue_wallet_card_list_header_color">#F8F8F8</color>
+    <color name="venue_wallet_card_list_child_color">#ffffff</color>
+    <color name="venue_wallet_selecteddot_color">#C41230</color>
+    <color name="venue_wallet_unselecteddot_color">#20C41230</color>
+    <color name="venue_wallet_paybutton_color">#00A160</color>
+
+    <!--walletTc-->
+    <color name="venue_wallet_tc_accept_text_color">#ffffff</color>
+    <color name="venue_wallet_tc_decline_text_color">#4C4C4C</color>
+    <color name="venue_wallet_tc_accept_bg_color">#F58426</color>
+    <color name="venue_wallet_tc_decline_bg_color">#ffffff</color>
+
+    <!--walletadd/edit-->
+    <color name="venue_wallet_addcard_edit_color">#00A160</color>
+    <color name="venue_wallet_addcard_remove_color">#C41230</color>
+    <color name="venue_wallet_addcard_btntext_color">#ffffff</color>
+    <color name="venue_wallet_addcard_text_color">#5A6771</color>
+    <color name="venue_wallet_addcard_text_bg_color">#F8F8F8</color>
+    <color name="venue_wallet_addcard_edittext_color">#5A6771</color>
+    <color name="venue_wallet_addcard_edittext_bg_color">#FFFFFF</color>
+
+
+</resources>

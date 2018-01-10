@@ -1,0 +1,15 @@
+package com.venue.emkitproximity.holder;
+
+public class EmkitGimbalVisit {
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    private String name;
+
+}
